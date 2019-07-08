@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Sidebar from '../components/Sidebar';
 import Tasks from '../components/Tasks';
+import TaskDetail from '../components/TaskDetail';
 
 class App extends Component {
   state = {  }
@@ -14,7 +15,7 @@ class App extends Component {
             <Tasks />
           </Col>
           <Col sm={12} md={6} className="no-pad right-wrapper">
-            
+            <TaskDetail />
           </Col>
         </Row>
       </Container>
